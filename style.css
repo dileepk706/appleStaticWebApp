@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#demo{
+    
+}
+.nav-link{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0px 16px;/*TB RL*/
+    opacity: 0.8;
+}
+.nav-link:hover{
+    opacity: 0.5;
+}
+.one{
+    /* width:px; */
+    padding: 50px;
+    background: url("/imag/hero_iphone14.jpg");
+    margin-top: 50px;/*the content inside one will come down*/
+
+}
+
+.title{
+    color:black;
+    text-align: center;
+    /* padding: 88px; */
+}
+.tithead{
+    font-size: 50px;
+}
+.titsub{
+    font-size: 25px;
+    /* margin-top: 2px; */
+}
+.one .but{
+    font-size: 15px;
+    margin-top:15px ;
+    color: #86868b;
+    width: 150px;
+    height: 35px;
+    border-radius:18px ;
+    border: 1px solid #86868b;
+    background-color: #ffffff;
+}
+.link{
+    text-align: center;
+    margin-top: 9px;
+}
+.link1{
+    font-size: 20px;
+    margin: 0px 15px;
+    display: inline-block;/*learn more and buy will come in row */
+    color: #2997ff;
+    text-decoration: none;
+}
+.link1:hover{
+    border-bottom: 2px solid #2997ff;
+}
+.two{
+    background: url("/imag/img2.jpg");
+}
+.two .tithead{
+    font-weight: 900px;
+}
+.titledark{
+    color:white;
+    text-align: center;
+    padding: 58px;
+}
+.two .but{
+    margin-top:15px ;
+    color: #86868b;
+    width: 150px;
+    height: 35px;
+    border-radius:18px ;
+    border: 1px solid #86868b;
+    background-color: black;
+    font-size: 15px;  
+}
+.linkdark{
+    font-size: 20px;
+    margin: 0px 18px;
+    text-decoration: none;
+    display: inline-block;/*learn more and buy will come in row */
+    color: #2997ff;
+
+}
+.linkdark:hover{
+    border-bottom: 2px solid #2997ff;
+}
+
+.main{    
+    height: 637px;    
+    width: 100%;
+    /* background-size: auto 637px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+@media all and (min-width:768px) and (max-width:989px){
+    .tithead{
+        font-size: 40px;
+    }
+    .titsub{
+        font-size: 20px;
+        /* margin-top: 2px; */
+    } 
+    .link1{
+        font-size: 20px;        
+    }
+    .linkdark{
+        font-size: 20px;
+    }       
+}
+@media all and (max-width:768px){    
+    .tithead{
+        font-size: 30px;
+    }
+    .titsub{
+        font-size: 15px;
+        /* margin-top: 2px; */
+    }
+    .link1{
+        font-size: 15px;
+        margin: 8px;
+    }
+    .linkdark{
+        font-size: 15px;
+        margin: 8px;
+    }    
+}
+
+
+
+
+/*2 images*/
+.combain{
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    cursor: pointer;
+}
+.one1{
+    width: 50%;/*because of width these 2 pictures came in equal portion*/
+    height: 570px;
+    background-image: url("/imag/lapp.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+.two1{    
+    background-image: url("/imag/lap2.jpg");   
+}
+.one1{
+    color:black;
+    text-align: center;
+    padding: 30px;
+}
+.titlehead{
+    font-size: 35px;
+    /* padding-bottom: ; */
+}
+
+.two1{
+    color:white;
+    text-align: center;
+    padding: 30px;
+}
+.titleheadtwo{
+    font-size: 35px;
+}
+.titlesubhead{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.sup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m2{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.sub{
+    text-align: center;
+    margin-top: 6px;
+}
+.two1 .sub{
+          margin-top: 3px;   
+}
+.sublink{
+    font-size: 18px;
+    margin: 0px 18px;
+    display: inline-block;/*learn more and buy will come in row */
+    color: #2997ff;
+    text-decoration: none;
+}
+.sublink:hover{
+    border-bottom: 1px solid #2997ff;
+}
+
+@media all and (min-width:768px) and (max-width:989px){
+    .titlehead{
+        font-size: 40px;
+    }
+    .titlesubhead{
+        font-size: 20px;
+    } 
+    .sublink{
+        font-size: 20px;
+    }       
+}
+@media all and (max-width:768px){
+    .titlehead ,.titleheadtwo{
+        font-size: 25px;
+    }
+    .titlesubhead{
+        font-size: 15px;
+    } 
+    .one1{
+        height:450px;
+    }      
+    .sublink{
+        font-size: 13px;
+        margin: 8px;
+    }      
+}
+
+
+
+
+
+
+.combain2{
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    cursor: pointer;
+}
+.one12{
+    width: 50%;/*because of width these 2 pictures came in equal portion*/
+    height: 570px;
+    background-image: url("/imag/water.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+.two12{    
+    background-image: url("/imag/watch.jpg");   
+}
+.one12{
+    color:black;
+    text-align: center;
+    padding: 30px;
+}
+.titlehead2{
+    font-size: 35px;
+    /* padding-bottom: ; */
+}
+.two12{
+    color:black;
+    text-align: center;
+    padding: 30px;
+}
+.titleheadtwo2{
+    font-size: 35px;
+}
+.titlesubhead2{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.m1{
+    padding-top: 30px;
+}
+.sup2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 47px;
+}
+.m22{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.sub2{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.two12 .sub2{
+          margin-top: 3px;   
+}
+.sublink2{
+    font-size: 18px;
+    margin: 0px 18px;
+    display: inline-block;/*learn more and buy will come in row */
+    color: #2997ff;
+    text-decoration: none;
+}
+.sublink2:hover{
+    border-bottom: 1px solid #2997ff;
+}
+
+.bg{
+    background-color: #f5f5f7;
+}
+
+.text-reset,.here,.new{
+font-size: 13px;
+}
+.text-uppercase{
+    font-size: 16px;
+}
+.text-secondary{
+    font-size: 20px;
+}
+.mbboot{
+    font-size: 10px;
+}
+
+.copy{
+    font-size: 12px;
+}
+.link-secondary{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.serone a:hover{
+    border-bottom: 1px solid #86868b;
+
+}
